@@ -2,3 +2,4 @@ dist/img
 dist/js/jquery.min.js
 dist/index.html
 src/pug
+node_modules
