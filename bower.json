@@ -18,7 +18,7 @@
     "test",
     "tests",
     "dist/img",
-    "dist/index.html"
+    "dist/index.html",
     "src/pug"
   ]
 }
