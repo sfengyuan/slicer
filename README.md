@@ -2,9 +2,10 @@
 
 # install
 `bower install unsj-slicer`
+
 or
 
-download or clone this repo and link the `slicer.js`, `main.css` and `normalize.css`
+download / clone this repo and link the `slicer.js`, `main.css` and `normalize.css`
 
 # Usage
 
