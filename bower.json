@@ -10,7 +10,7 @@
     "image slider",
     "carousel"
   ],
-  "homepage": "",
+  "homepage": "https://github.com/unsj/slicer",
   "ignore": [
     "**/.*",
     "node_modules",
