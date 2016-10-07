@@ -1,6 +1,13 @@
 # Slicer is a image slider based on Jquery
 
+# install
+`bower install unsj-slicer`
+or
+
+download or clone this repo and link the `slicer.js`, `main.css` and `normalize.css`
+
 # Usage
+
 HTML structure
 ```
 <div class="slicer">
@@ -12,14 +19,38 @@ HTML structure
 </div>
 ```
 
+active the plugin
+```
+<script>
+  $('.slicer').slicer()
+</script>
+```
 
+# Options
+```
+<script>
+  $('.slicer').slicer({
+    autoplay: true,
+    loop: true,
+    // 1: slide to right, -1: slide to left
+    dir: 1,
+    // whether to show the prev and next button
+    prevNext: true,
+    // whether to show the page button
+    bullets: true,
+    // slide speed
+    speed: 300,
+    // time per image display
+    duration: 2000,
+    })
+</script>
+```
 
-
-#　License
+# License
 
 The MIT License (MIT)
 
-Copyright (c) 2015 Bo-Yi Wu
+Copyright (c) 2015 unsj
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
