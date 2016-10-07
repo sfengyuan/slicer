@@ -1,0 +1,24 @@
+{
+  "name": "slicer",
+  "description": "A simple slider",
+  "main": "slicer.js",
+  "authors": [
+    "unsj"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "image slider",
+    "carousel"
+  ],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "dist/img",
+    "dist/index.html"
+    "src/pug"
+  ]
+}

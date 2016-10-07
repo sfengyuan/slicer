@@ -1,0 +1,48 @@
+@import url("normalize.css");
+
+* {
+  margin:0;
+  padding:0;
+}
+
+a {
+  text-decoration:none;
+}
+
+li {
+  list-style: none;
+}
+
+.clearfix {
+  zoom:1;
+
+  &:after, &:before {
+    content:"";
+    display: table;
+  }
+
+  &:after{
+    clear:both;
+  }
+}
+
+.wrapper {
+  width:40%;
+  margin:10px auto;
+  .slicer{
+    position: relative;
+    overflow: hidden;
+
+    .sl-wrapper {
+      position: relative;
+    }
+
+    .sl-item {
+      float:left;
+      img {
+        width: 100%;
+        height: auto;
+      }
+    }
+  }
+}

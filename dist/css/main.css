@@ -1,0 +1,32 @@
+@import url("normalize.css");
+* {
+  margin: 0;
+  padding: 0; }
+
+a {
+  text-decoration: none; }
+
+li {
+  list-style: none; }
+
+.clearfix {
+  zoom: 1; }
+  .clearfix:after, .clearfix:before {
+    content: "";
+    display: table; }
+  .clearfix:after {
+    clear: both; }
+
+.wrapper {
+  width: 40%;
+  margin: 10px auto; }
+  .wrapper .slicer {
+    position: relative;
+    overflow: hidden; }
+    .wrapper .slicer .sl-wrapper {
+      position: relative; }
+    .wrapper .slicer .sl-item {
+      float: left; }
+      .wrapper .slicer .sl-item img {
+        width: 100%;
+        height: auto; }
